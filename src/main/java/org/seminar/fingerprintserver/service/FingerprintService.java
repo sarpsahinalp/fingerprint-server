@@ -1,10 +1,11 @@
-package org.seminar.fingerprintserver;
+package org.seminar.fingerprintserver.service;
 
+import org.seminar.fingerprintserver.model.Fingerprint;
+import org.seminar.fingerprintserver.repository.FingerprintRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
-import java.util.Optional;
 
 @Service
 public class FingerprintService {

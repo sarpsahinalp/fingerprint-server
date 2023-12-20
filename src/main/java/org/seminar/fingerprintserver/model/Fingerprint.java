@@ -1,4 +1,4 @@
-package org.seminar.fingerprintserver;
+package org.seminar.fingerprintserver.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

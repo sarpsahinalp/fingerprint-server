@@ -1,10 +1,11 @@
-package org.seminar.fingerprintserver;
+package org.seminar.fingerprintserver.controller;
+import org.seminar.fingerprintserver.service.FingerprintService;
+import org.seminar.fingerprintserver.model.Fingerprint;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
-import java.util.Optional;
 
 @RestController
 @RequestMapping("/api/fingerprints")
